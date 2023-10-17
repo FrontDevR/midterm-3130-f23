@@ -1,5 +1,5 @@
 /* -----------------------------------------------mobile devices */
-@media (min-width: 375px) and (max-width: 640px) {
+@media (min-width: 275px) and (max-width: 640px) {
   /* ----------------------------------------[navigation]------------- */
   .logo {
     max-width: 100px;
