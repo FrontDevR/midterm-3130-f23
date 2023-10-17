@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./media-queries.css" />
+  </head>
+
+  <body>
+    <main>
+      <!-------------------------------------------- navigation -->
+      <section class="navWrap">
+        <img src="images/logo.png" alt="MAR logo" class="logo" />
+        <input type="checkbox" id="navToggle" class="navToggle" />
+        <label for="navToggle" class="navToggleLabel"><span></span></label>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html">Cart</a></li>
+            <li>
+              <a href="index.html" class="user"><img src="./images/user.png" alt="User Icon" /></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- ----------------------------------------------------- -->
+
+      <section class="hero">
+        <img src="images/desktop_banner.png" alt="Hero Image" class="hero-image" />
+        <h1 class="hero-text">2023 Fall Collection</h1>
+      </section>
+      <!-- ----------------------------------------------------- -->
+      <div class="container">
+        <h1 class="heading">Products</h1>
+        <section class="card-container">
+          <!-- 01----------------------------------------- -->
+          <div class="card">
+            <img src="./images/01.png" alt="Lakeview Condo" class="card-image" />
+            <div class="card-details">
+              <div class="card-details-header-container">
+                <p class="card-header-info">SoleSync</p>
+                <p class="card-header-price">$200</p>
+                <p class="card-header-address">Nike</p>
+              </div>
+
+              <div class="house-details-container">
+                <div class="house-details">
+                  <p><span class="house-details-number">Size</span> 6-9</p>
+                </div>
+
+                <div class="house-details">
+                  <p><span class="house-details-number">Colour</span> Blue</p>
+                </div>
+              </div>
+              <button class="card-button" onclick="location.href='product.html';">View the Products</button>
+            </div>
+          </div>
+          <!-- 02----------------------------------------- -->
+          <div class="card">
+            <img src="./images/02.png" alt="Lakeview Condo" class="card-image" />
+            <div class="card-details">
+              <div class="card-details-header-container">
+                <p class="card-header-info">Sneakify</p>
+                <p class="card-header-price">$450</p>
+                <p class="card-header-address">Nike</p>
+              </div>
+
+              <div class="house-details-container">
+                <div class="house-details">
+                  <p><span class="house-details-number">Size</span> 6-12</p>
+                </div>
+
+                <div class="house-details">
+                  <p><span class="house-details-number">Colour</span> White</p>
+                </div>
+              </div>
+              <button class="card-button" onclick="location.href='product.html';">View the Products</button>
+            </div>
+          </div>
+          <!-- 03----------------------------------------- -->
+          <div class="card">
+            <img src="./images/03.png" alt="Lakeview Condo" class="card-image" />
+            <div class="card-details">
+              <div class="card-details-header-container">
+                <p class="card-header-info">FootFlex</p>
+                <p class="card-header-price">$340</p>
+                <p class="card-header-address">Nike</p>
+              </div>
+
+              <div class="house-details-container">
+                <div class="house-details">
+                  <p><span class="house-details-number">Size</span> 6-12</p>
+                </div>
+
+                <div class="house-details">
+                  <p><span class="house-details-number">Colour</span> Yellow</p>
+                </div>
+              </div>
+              <button class="card-button" onclick="location.href='product.html';">View the Products</button>
+            </div>
+          </div>
+          <!-- 04----------------------------------------- -->
+          <div class="card">
+            <img src="./images/04.png" alt="Lakeview Condo" class="card-image" />
+            <div class="card-details">
+              <div class="card-details-header-container">
+                <p class="card-header-info">Kicksy</p>
+                <p class="card-header-price">$153</p>
+                <p class="card-header-address">Nike</p>
+              </div>
+
+              <div class="house-details-container">
+                <div class="house-details">
+                  <p><span class="house-details-number">Size</span> 6-8</p>
+                </div>
+
+                <div class="house-details">
+                  <p><span class="house-details-number">Colour</span> Black</p>
+                </div>
+              </div>
+              <button class="card-button" onclick="location.href='product.html';">View the Products</button>
+            </div>
+          </div>
+          <!-- 05----------------------------------------- -->
+          <div class="card">
+            <img src="./images/05.png" alt="Lakeview Condo" class="card-image" />
+            <div class="card-details">
+              <div class="card-details-header-container">
+                <p class="card-header-info">StepSwift</p>
+                <p class="card-header-price">$410</p>
+                <p class="card-header-address">Puma</p>
+              </div>
+
+              <div class="house-details-container">
+                <div class="house-details">
+                  <p><span class="house-details-number">Size</span> 7-12</p>
+                </div>
+
+                <div class="house-details">
+                  <p><span class="house-details-number">Colour</span> Red</p>
+                </div>
+              </div>
+              <button class="card-button" onclick="location.href='product.html';">View the Products</button>
+            </div>
+          </div>
+          <!-- 06----------------------------------------- -->
+          <div class="card">
+            <img src="./images/06.png" alt="Lakeview Condo" class="card-image" />
+            <div class="card-details">
+              <div class="card-details-header-container">
+                <p class="card-header-info">LaceLife</p>
+                <p class="card-header-price">$230</p>
+                <p class="card-header-address">Nike</p>
+              </div>
+
+              <div class="house-details-container">
+                <div class="house-details">
+                  <p><span class="house-details-number">Size</span> 6-8</p>
+                </div>
+
+                <div class="house-details">
+                  <p><span class="house-details-number">Colour</span> Black</p>
+                </div>
+              </div>
+              <button class="card-button" onclick="location.href='product.html';">View the Products</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
